@@ -85,8 +85,7 @@ The analysis was performed using ```run_script.R```. The script performs the fol
 
 9. The data from Step 8 is grouped according to the Subject and Activity using ```group_by``` and aggregated using ```summarise_all``` to find the mean of all 66 variables present in the table for each Subject, per Activity
 
-10. The resulting data from Step 9 is written out to ```tinydata.txt```
-
+10. The resulting data from Step 9 is written out to ```tidydata.txt```
 ********************
 Done by : Ambika Sivakumar
 
