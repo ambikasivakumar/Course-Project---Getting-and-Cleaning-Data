@@ -97,10 +97,10 @@ The various tarnsformations applied on the original **UCI HAR Dataset** are desc
 3. A descreptive name is given for each activity in the ```required.data``` table
 
 4. The column names (feature names) in the ```required.data``` table are replaced with descreptive names. A function called ```rename.columns``` performs the following transformations
-        4.1 All instances beginning with *t* are replaced with *Time*
-        4.2 All instances beginning with *f* are replaced with *Frequency*
-        4.3 All instances with the word *Body* repeated twice are modified to contain only *Body* only once
-        4.4 The words *Acc*, *Gyro* and *Mag* are expanded into their full forms - *Accelerometer*, *Gyrometer* and *Magnitude*, respectively
+    i. All instances beginning with *t* are replaced with *Time*
+    ii. All instances beginning with *f* are replaced with *Frequency*
+    iii. All instances with the word *Body* repeated twice are modified to contain only *Body*       only once
+    iv. The words *Acc*, *Gyro* and *Mag* are expanded into their full forms - *Accelerometer*, *Gyrometer* and *Magnitude*, respectively
 
 5. The data from step 4 is finally grouped according to the Subject and Activity and aggregated to find the mean of all 66 variables present in the table for each Subject, per Activity
 
